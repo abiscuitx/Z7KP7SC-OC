@@ -2,8 +2,11 @@
 
 > **用前须知：**
 > 笔记本型号：神舟z7-kp7sc
+
 > 配置：i7-8750H+Nvidia GTX1060+Intel WiFi蓝牙+Realtek网卡9462+Realtek声卡ALC269
+
 > 下载记得自行修改paltform参数
+
 > 引导主题文件：个人自制主题
 
 ![](/1.png)
