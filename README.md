@@ -10,7 +10,7 @@
 > 引导主题文件：个人自制主题
 
 ![](/1.png)
-## OC-15.6.1 (24G90)
+## OC-15.7 (24G222)
 OC版本：1.0.5
 适用版本：macOS Sequoia
 功能完善：基本正常
@@ -22,7 +22,7 @@ OC版本：1.0.5
 - 外接显示器 HDMI/DP01（接在独显口，无解），DP02（此miniDP口接在核显，可用但不稳定），实测需要开机之前连接dp线，保证在引导阶段检测到外接屏并输出显示。问题：进入系统后内屏黑屏，外接屏30s左右不稳定闪屏，通过合盖关闭内屏几秒钟，再开盖解决（最好关闭macOS合盖睡眠，因为此方式只需内屏关闭重启无需睡眠）
 - 外接显示器USB 通过：[Dell D6000设备](https://www.dell.com/support/product-details/zh-cn/product/dell-universal-dock-d6000/overview)+[DisplayLink Manager驱动](https://www.synaptics.com/products/displaylink-graphics/downloads/macos)解决
   
-## opencore-OC-14.7.1 (23H222)
+## OC-14.7.1 (23H222)
 OC版本：1.0.2
 适用版本：macOS14 Sonoma
 功能完善：基本正常
@@ -33,7 +33,7 @@ OC版本：1.0.2
 - 外接显示器 HDMI/DP01（接在独显口，无解），DP02（此miniDP口接在核显，可用但不稳定），实测需要开机之前连接dp线，保证在引导阶段检测到外接屏并输出显示。问题：进入系统后内屏黑屏，外接屏30s左右不稳定闪屏，通过合盖关闭内屏几秒钟，再开盖解决（最好关闭macOS合盖睡眠，因为此方式只需内屏关闭重启无需睡眠）
 - 外接显示器USB 通过：[Dell D6000设备](https://www.dell.com/support/product-details/zh-cn/product/dell-universal-dock-d6000/overview)+[DisplayLink Manager驱动](https://www.synaptics.com/products/displaylink-graphics/downloads/macos)解决
 
-## clover-10.13.6
+## Clover-10.13.6
 适用版本：macOS10.13.6
 功能完善：完美黑苹果
 - 核显Intel UHD630(正常)
