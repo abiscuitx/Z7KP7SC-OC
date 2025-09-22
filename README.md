@@ -12,7 +12,7 @@
 ![](/1.png)
 ## OC-15.7 (24G222)
 OC版本：1.0.5
-适用版本：macOS Sequoia
+适用版本：macOS15 Sequoia
 功能完善：基本正常
 - CPU核显 IntelUHD630 (正常)
 - 独显Nvdia 1060（无解），可用：OCLP，BigSur和Monterey，不支持 Metal
