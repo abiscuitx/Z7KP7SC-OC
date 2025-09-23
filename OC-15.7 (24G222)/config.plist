@@ -629,6 +629,31 @@
 	<dict>
 		<key>Add</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x0)</key>
+			<dict>
+				<key>ec-device</key>
+				<string>generic</string>
+				<key>fan-count</key>
+				<integer>2</integer>
+				<key>fan0-addr</key>
+				<integer>208</integer>
+				<key>fan0-big</key>
+				<integer>1</integer>
+				<key>fan0-dividend</key>
+				<integer>2156220</integer>
+				<key>fan0-size</key>
+				<integer>2</integer>
+				<key>fan1-addr</key>
+				<integer>210</integer>
+				<key>fan1-big</key>
+				<integer>1</integer>
+				<key>fan1-dividend</key>
+				<integer>2156220</integer>
+				<key>fan1-size</key>
+				<integer>2</integer>
+				<key>model</key>
+				<string>Intel Corporation Coffee Lake Series LPC Controller</string>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
@@ -650,16 +675,40 @@
 				<data>AACbPg==</data>
 				<key>backlight-smoother-lowerbound</key>
 				<data>UAAAAA==</data>
+				<key>complete-modeset</key>
+				<data>AQAAAA==</data>
+				<key>complete-modeset-framebuffers</key>
+				<data>AAAAAAAAAAE=</data>
 				<key>device-id</key>
 				<data>mz4AAA==</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
+				<key>dpcd-max-link-rate</key>
+				<data>CgAAAA==</data>
 				<key>enable-backlight-registers-alternative-fix</key>
+				<data>AQAAAA==</data>
+				<key>enable-dpcd-max-link-rate-fix</key>
+				<data>AQAAAA==</data>
+				<key>enable-max-pixel-clock-override</key>
+				<data>AQAAAA==</data>
+				<key>force-online</key>
+				<data>AQAAAA==</data>
+				<key>force-online-framebuffers</key>
+				<data>AAAAAAAAAAE=</data>
+				<key>framebuffer-con0-alldata</key>
+				<data>AAAIAAIAAACYAAAA</data>
+				<key>framebuffer-con0-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con1-alldata</key>
+				<data>AQUJAAAEAACHAQAA</data>
+				<key>framebuffer-con1-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-fbmem</key>
 				<data>AACQAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
+				<key>framebuffer-portcount</key>
+				<data>AgAAAA==</data>
 				<key>framebuffer-stolenmem</key>
 				<data>AAAwAQ==</data>
 				<key>framebuffer-unifiedmem</key>
@@ -668,6 +717,8 @@
 				<string>onboard-1</string>
 				<key>model</key>
 				<string>Intel CoffeeLake-H GT2 [UHD Graphics 630]</string>
+				<key>rps-control</key>
+				<data>AQAAAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1D,0x6)/Pci(0x0,0x1)</key>
 			<dict>
@@ -1878,7 +1929,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>debug=0x100 keepsyms=1 -btlfxallowanyaddr -btlfxboardid -igfxblt -igfxbls alcdelay=1000 forceRenderStandby=0 igfxonln=1 ipc_control_port_options=0</string>
+				<string>debug=0x100 keepsyms=1 -btlfxallowanyaddr -btlfxboardid -igfxblt -igfxbls alcdelay=1000 forceRenderStandby=0 igfxonln=1 agdpmod=vit9696 ipc_control_port_options=0</string>
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>csr-active-config</key>
@@ -1957,11 +2008,11 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02814902GUJP4FJA</string>
+			<string>C028116004NJP4F1F</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>ROM</key>
-			<data>UTAF/2/s</data>
+			<data>8BiYtLDx</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1969,9 +2020,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02WJBY0KGYG</string>
+			<string>C02X859UJG5L</string>
 			<key>SystemUUID</key>
-			<string>C5536415-B824-4E36-8EBD-5CBD7D7B6846</string>
+			<string>F4319CA7-5AEF-4D2C-87AF-27CB465897F0</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -2702,9 +2753,9 @@
 			<key>ProvideConsoleGop</key>
 			<true/>
 			<key>ReconnectGraphicsOnConnect</key>
-			<false/>
+			<true/>
 			<key>ReconnectOnResChange</key>
-			<false/>
+			<true/>
 			<key>ReplaceTabWithSpace</key>
 			<false/>
 			<key>Resolution</key>
